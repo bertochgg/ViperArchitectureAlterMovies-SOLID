@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		DB44F66D2AC4C12800E9D59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F66C2AC4C12800E9D59A /* AppDelegate.swift */; };
 		DB44F66F2AC4C12800E9D59A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F66E2AC4C12800E9D59A /* SceneDelegate.swift */; };
-		DB44F6712AC4C12800E9D59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6702AC4C12800E9D59A /* ViewController.swift */; };
-		DB44F6742AC4C12800E9D59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6722AC4C12800E9D59A /* Main.storyboard */; };
 		DB44F6762AC4C12B00E9D59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6752AC4C12B00E9D59A /* Assets.xcassets */; };
 		DB44F6792AC4C12B00E9D59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6772AC4C12B00E9D59A /* LaunchScreen.storyboard */; };
 		DB44F6842AC4C12B00E9D59A /* ViperArchitectureAlterMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6832AC4C12B00E9D59A /* ViperArchitectureAlterMoviesTests.swift */; };
 		DB44F68E2AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F68D2AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITests.swift */; };
 		DB44F6902AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F68F2AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITestsLaunchTests.swift */; };
+		DB44F6A62AC4C1C000E9D59A /* ListOfMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6A52AC4C1C000E9D59A /* ListOfMoviesViewController.swift */; };
+		DB44F6A82AC4C1D400E9D59A /* ListOfMoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6A72AC4C1D400E9D59A /* ListOfMoviesInteractor.swift */; };
+		DB44F6AA2AC4C1DC00E9D59A /* ListOfMoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6A92AC4C1DC00E9D59A /* ListOfMoviesPresenter.swift */; };
+		DB44F6AC2AC4C1E200E9D59A /* ListOfMoviesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6AB2AC4C1E200E9D59A /* ListOfMoviesEntity.swift */; };
+		DB44F6AE2AC4C1E800E9D59A /* ListOfMoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6AD2AC4C1E800E9D59A /* ListOfMoviesRouter.swift */; };
+		DB44F6B02AC4C1F800E9D59A /* ListOfMoviesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6AF2AC4C1F800E9D59A /* ListOfMoviesProtocols.swift */; };
+		DB44F6B32AC4D60F00E9D59A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DB44F6B22AC4D60F00E9D59A /* Kingfisher */; };
+		DB44F6B52AC4D7F300E9D59A /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6B42AC4D7F300E9D59A /* NetworkErrors.swift */; };
+		DB44F6B72AC4DD9000E9D59A /* ListOfMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6B62AC4DD9000E9D59A /* ListOfMoviesViewModel.swift */; };
+		DB44F6B92AC4DF4E00E9D59A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6B82AC4DF4E00E9D59A /* Constants.swift */; };
+		DB44F6BB2AC4E32300E9D59A /* ListOfMoviesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6BA2AC4E32300E9D59A /* ListOfMoviesNetworkService.swift */; };
+		DB44F6BD2AC4E59D00E9D59A /* ListOfMoviesViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6BC2AC4E59D00E9D59A /* ListOfMoviesViewModelMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		DB44F6692AC4C12800E9D59A /* ViperArchitectureAlterMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperArchitectureAlterMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44F66C2AC4C12800E9D59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB44F66E2AC4C12800E9D59A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB44F6702AC4C12800E9D59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB44F6732AC4C12800E9D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB44F6752AC4C12B00E9D59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB44F6782AC4C12B00E9D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB44F67A2AC4C12B00E9D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 		DB44F6892AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperArchitectureAlterMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44F68D2AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperArchitectureAlterMoviesUITests.swift; sourceTree = "<group>"; };
 		DB44F68F2AC4C12B00E9D59A /* ViperArchitectureAlterMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperArchitectureAlterMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB44F6A52AC4C1C000E9D59A /* ListOfMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesViewController.swift; sourceTree = "<group>"; };
+		DB44F6A72AC4C1D400E9D59A /* ListOfMoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesInteractor.swift; sourceTree = "<group>"; };
+		DB44F6A92AC4C1DC00E9D59A /* ListOfMoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesPresenter.swift; sourceTree = "<group>"; };
+		DB44F6AB2AC4C1E200E9D59A /* ListOfMoviesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesEntity.swift; sourceTree = "<group>"; };
+		DB44F6AD2AC4C1E800E9D59A /* ListOfMoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesRouter.swift; sourceTree = "<group>"; };
+		DB44F6AF2AC4C1F800E9D59A /* ListOfMoviesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesProtocols.swift; sourceTree = "<group>"; };
+		DB44F6B42AC4D7F300E9D59A /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		DB44F6B62AC4DD9000E9D59A /* ListOfMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesViewModel.swift; sourceTree = "<group>"; };
+		DB44F6B82AC4DF4E00E9D59A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB44F6BA2AC4E32300E9D59A /* ListOfMoviesNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesNetworkService.swift; sourceTree = "<group>"; };
+		DB44F6BC2AC4E59D00E9D59A /* ListOfMoviesViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMoviesViewModelMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB44F6B32AC4D60F00E9D59A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +119,12 @@
 		DB44F66B2AC4C12800E9D59A /* ViperArchitectureAlterMovies */ = {
 			isa = PBXGroup;
 			children = (
-				DB44F66C2AC4C12800E9D59A /* AppDelegate.swift */,
-				DB44F66E2AC4C12800E9D59A /* SceneDelegate.swift */,
-				DB44F6702AC4C12800E9D59A /* ViewController.swift */,
-				DB44F6722AC4C12800E9D59A /* Main.storyboard */,
-				DB44F6752AC4C12B00E9D59A /* Assets.xcassets */,
-				DB44F6772AC4C12B00E9D59A /* LaunchScreen.storyboard */,
+				DB44F6A12AC4C18E00E9D59A /* Services */,
+				DB44F6A02AC4C18400E9D59A /* Extensions */,
+				DB44F69F2AC4C17B00E9D59A /* Common */,
+				DB44F69E2AC4C17500E9D59A /* Modules */,
+				DB44F69C2AC4C13D00E9D59A /* Application */,
+				DB44F69D2AC4C14700E9D59A /* Resources */,
 				DB44F67A2AC4C12B00E9D59A /* Info.plist */,
 			);
 			path = ViperArchitectureAlterMovies;
@@ -127,6 +147,87 @@
 			path = ViperArchitectureAlterMoviesUITests;
 			sourceTree = "<group>";
 		};
+		DB44F69C2AC4C13D00E9D59A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F66C2AC4C12800E9D59A /* AppDelegate.swift */,
+				DB44F66E2AC4C12800E9D59A /* SceneDelegate.swift */,
+				DB44F6772AC4C12B00E9D59A /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DB44F69D2AC4C14700E9D59A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6752AC4C12B00E9D59A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB44F69E2AC4C17500E9D59A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6A22AC4C19D00E9D59A /* ListOfMovies */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DB44F69F2AC4C17B00E9D59A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6B42AC4D7F300E9D59A /* NetworkErrors.swift */,
+				DB44F6B82AC4DF4E00E9D59A /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB44F6A02AC4C18400E9D59A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB44F6A12AC4C18E00E9D59A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6BA2AC4E32300E9D59A /* ListOfMoviesNetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB44F6A22AC4C19D00E9D59A /* ListOfMovies */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6A42AC4C1AD00E9D59A /* Mappers */,
+				DB44F6A32AC4C1A700E9D59A /* ViewModels */,
+				DB44F6A52AC4C1C000E9D59A /* ListOfMoviesViewController.swift */,
+				DB44F6A72AC4C1D400E9D59A /* ListOfMoviesInteractor.swift */,
+				DB44F6A92AC4C1DC00E9D59A /* ListOfMoviesPresenter.swift */,
+				DB44F6AB2AC4C1E200E9D59A /* ListOfMoviesEntity.swift */,
+				DB44F6AD2AC4C1E800E9D59A /* ListOfMoviesRouter.swift */,
+				DB44F6AF2AC4C1F800E9D59A /* ListOfMoviesProtocols.swift */,
+			);
+			path = ListOfMovies;
+			sourceTree = "<group>";
+		};
+		DB44F6A32AC4C1A700E9D59A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6B62AC4DD9000E9D59A /* ListOfMoviesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB44F6A42AC4C1AD00E9D59A /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6BC2AC4E59D00E9D59A /* ListOfMoviesViewModelMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +244,9 @@
 			dependencies = (
 			);
 			name = ViperArchitectureAlterMovies;
+			packageProductDependencies = (
+				DB44F6B22AC4D60F00E9D59A /* Kingfisher */,
+			);
 			productName = ViperArchitectureAlterMovies;
 			productReference = DB44F6692AC4C12800E9D59A /* ViperArchitectureAlterMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +319,9 @@
 				Base,
 			);
 			mainGroup = DB44F6602AC4C12800E9D59A;
+			packageReferences = (
+				DB44F6B12AC4D60F00E9D59A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DB44F66A2AC4C12800E9D59A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +340,6 @@
 			files = (
 				DB44F6792AC4C12B00E9D59A /* LaunchScreen.storyboard in Resources */,
 				DB44F6762AC4C12B00E9D59A /* Assets.xcassets in Resources */,
-				DB44F6742AC4C12800E9D59A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB44F6712AC4C12800E9D59A /* ViewController.swift in Sources */,
+				DB44F6AC2AC4C1E200E9D59A /* ListOfMoviesEntity.swift in Sources */,
+				DB44F6B92AC4DF4E00E9D59A /* Constants.swift in Sources */,
 				DB44F66D2AC4C12800E9D59A /* AppDelegate.swift in Sources */,
 				DB44F66F2AC4C12800E9D59A /* SceneDelegate.swift in Sources */,
+				DB44F6BB2AC4E32300E9D59A /* ListOfMoviesNetworkService.swift in Sources */,
+				DB44F6AA2AC4C1DC00E9D59A /* ListOfMoviesPresenter.swift in Sources */,
+				DB44F6AE2AC4C1E800E9D59A /* ListOfMoviesRouter.swift in Sources */,
+				DB44F6A82AC4C1D400E9D59A /* ListOfMoviesInteractor.swift in Sources */,
+				DB44F6BD2AC4E59D00E9D59A /* ListOfMoviesViewModelMapper.swift in Sources */,
+				DB44F6B72AC4DD9000E9D59A /* ListOfMoviesViewModel.swift in Sources */,
+				DB44F6A62AC4C1C000E9D59A /* ListOfMoviesViewController.swift in Sources */,
+				DB44F6B02AC4C1F800E9D59A /* ListOfMoviesProtocols.swift in Sources */,
+				DB44F6B52AC4D7F300E9D59A /* NetworkErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB44F6722AC4C12800E9D59A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB44F6732AC4C12800E9D59A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB44F6772AC4C12B00E9D59A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +550,6 @@
 				INFOPLIST_FILE = ViperArchitectureAlterMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +577,6 @@
 				INFOPLIST_FILE = ViperArchitectureAlterMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +708,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB44F6B12AC4D60F00E9D59A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB44F6B22AC4D60F00E9D59A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB44F6B12AC4D60F00E9D59A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB44F6612AC4C12800E9D59A /* Project object */;
 }
